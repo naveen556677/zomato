@@ -1,0 +1,217 @@
+.c{
+	background-image: url('OIP (1).jfif');
+	background-repeat: no-repeat;
+	border: 1px solid black;
+	border-radius: 5px;
+
+    background-size:100% 420px;
+    color:white;
+    
+}
+ul {
+	display:flex;
+	justify-content: space-around;
+
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+h1,h2{
+
+	display: flex;
+	justify-content: center;
+
+}
+.a{
+	border:1px solid black;
+	border-radius: 5px;
+	margin:2% 21% 7% 21%;
+	padding: 1%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	
+}
+input{
+	width: 50%;
+}
+.b{display: flex;
+	justify-content: space-evenly;
+
+	}
+.o,.n,.e{
+	
+    border: 1px solid black;
+	border-radius: 3px;
+	margin: 2% 0px 0px 0px;
+	box-shadow: 3px 3px 10px;
+}
+img{
+
+	width: 100%;
+}
+.o:hover{
+	border:1px solid black;
+	border-radius: 5px;
+	
+    margin: 1% ;
+
+}
+.n:hover{
+	border:1px solid black;
+	border-radius: 5px;
+	margin: 1% ;
+
+	
+	}
+.e:hover{
+	border:1px solid black;
+	border-radius: 5px;
+	margin: 1% ;
+}
+.aa{
+	display:flex;
+	justify-content: space-evenly;
+	font-family: serif;
+}
+.hh,.pop,.head{
+	display: flex;
+	justify-content: flex-start;
+	margin: 5% 0px -22px 3%;
+	}
+.bb{
+	color:red;
+}
+.one,.two,.three,.four{
+	color:white;
+	border:1px solid black;
+	border-radius: 5px;
+     
+ }
+.fourimg{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0px 3% 0px 3%;
+}
+.one{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('food.jfif');
+	padding: 20% 7%  0px 1%;
+}
+.two{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('sea dining.jfif');
+	padding: 20% 11%  0px 1%;
+}
+.three{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('insta worthy.jfif');
+	padding: 20% 6%  0px 1%;
+}
+.four{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('buffet.jfif');
+	padding: 20% 8%  0px 1%;
+}
+.hole{
+	display: flex;
+	justify-content: space-evenly;
+}
+.t,.no,.v{
+	border:1px solid black;
+	border-radius: 5px;
+	margin: 2% 0px 0px 0px;
+
+}
+.t{
+	padding: 0px 21% 0px 1%;
+}
+.no{
+	padding: 0px 19% 0px 1%;
+}
+.v{
+	padding: 0px 19% 0px 1%;
+}
+.hole1{
+	display: flex;
+	justify-content: space-evenly;
+}
+.ad,.an,.th{
+	border:1px solid black;
+	border-radius: 5px;
+	margin: 2% 0px 0px 0px;
+
+}
+.ad{
+	padding: 0px 22% 0px 1%;
+}
+.an{
+	padding: 0px 16% 0px 1%;
+}
+.th{
+	padding: 0px 16% 0px 1%;
+}
+.hole2{
+	display: flex;
+	justify-content: space-evenly;
+}
+.my,.al,.se{
+	border:1px solid black;
+	border-radius: 5px;
+	margin: 2% 0px 0px 0px;
+
+}
+.my{
+	padding: 0px 20% 0px 1%;
+}
+.al{
+	padding: 0px 22% 0px 1%;
+}
+.se{
+	padding: 0px 20% 0px 1%;
+}
+.a1,.a2,.a3,.a4{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 3% 3%;
+	padding: 0px 0px 0px 1%;
+}
+.zo{
+	display: flex;
+	justify-content: flex-start;
+	margin: 1% 2%;
+}
+.b1{
+	display: flex;
+	justify-content: space-evenly;
+}
+.final{
+	display: flex;
+	justify-content: space-between;
+	margin: 1% 2%;
+
+}
+.last{
+	background-color: lightgray;
+	background-size: cover;
+	border: 1px solid white;
+	border-radius: 5px;
+
+}
+.b5{
+	margin: 1% 2% 4% 2%;
+}
+a:hover{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: black;
+	padding: 7px;
+}
