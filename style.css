@@ -41,6 +41,7 @@ input{
 }
 .b{display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 
 	}
 .o,.n,.e{
@@ -77,6 +78,7 @@ img{
 	display:flex;
 	justify-content: space-evenly;
 	font-family: serif;
+	flex-wrap: wrap;
 }
 .hh,.pop,.head{
 	display: flex;
@@ -90,40 +92,72 @@ img{
 	color:white;
 	border:1px solid black;
 	border-radius: 5px;
+	box-shadow: 5px 5px 10px black;
      
  }
+ @media only screen and (max-width:600px){
+ 	.one,.two,.three,.four{
+ 		color:white;
+	border:1px solid black;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px black;
+	flex-basis: 100%;
+	margin: 0px 0px 5% 0px;
+
+ 	}
+}
+
 .fourimg{
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0px 3% 0px 3%;
+	flex-wrap: wrap;
+	
+}
+@media only screen and (max-width:600px){
+	.fourimg{
+		display: flex;
+		justify-content: space-evenly;
+
+
+	margin: 0px 3% 0px 3%;
+	flex-wrap: wrap;
+
+	}
 }
 .one{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('food.jfif');
 	padding: 20% 7%  0px 1%;
+	
 }
+
 .two{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('sea dining.jfif');
 	padding: 20% 11%  0px 1%;
+	
 }
 .three{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('insta worthy.jfif');
-	padding: 20% 6%  0px 1%;
+	padding: 19% 5%  0px 1%;
+	
 }
 .four{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-image: url('buffet.jfif');
-	padding: 20% 8%  0px 1%;
+	padding: 19% 7%  0px 1%;
+	
 }
 .hole{
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .t,.no,.v{
 	border:1px solid black;
@@ -143,6 +177,7 @@ img{
 .hole1{
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .ad,.an,.th{
 	border:1px solid black;
@@ -162,6 +197,7 @@ img{
 .hole2{
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 .my,.al,.se{
 	border:1px solid black;
@@ -197,6 +233,7 @@ img{
 	display: flex;
 	justify-content: space-between;
 	margin: 1% 2%;
+	flex-wrap: wrap;
 
 }
 .last{
