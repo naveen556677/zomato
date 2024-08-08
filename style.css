@@ -1,7 +1,7 @@
 .c{
-	background-image: url('OIP (1).jfif');
+	background-image: url('new bg hd.jpg');
 	background-repeat: no-repeat;
-	border: 1px solid black;
+	border: 1px solid lightgrey;
 	border-radius: 5px;
 
     background-size:100% 420px;
@@ -26,53 +26,67 @@ h1,h2{
 	justify-content: center;
 
 }
+.searchicon{
+	background-image: url('iconsearch.jfif');
+	background-repeat: no-repeat;
+	background-size: 3%;
+	background-position: right;
+
+}
 .a{
-	border:1px solid black;
-	border-radius: 5px;
 	margin:2% 21% 7% 21%;
-	padding: 1%;
-	background-color: white;
 	display: flex;
 	justify-content: center;
 	
 }
 input{
-	width: 50%;
+     
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+	padding: 1.5%;
+	font-size: 18px;
+	
 }
 .b{display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 
 	}
+.num1,.num2{
+	margin: 1% 0px  0px 5%;
+	display: flex;
+	justify-content: flex-start;
+	verflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
 .o,.n,.e{
 	
-    border: 1px solid black;
-	border-radius: 3px;
+    border: 1px solid lightgrey;
+	border-radius: 10px;
 	margin: 2% 0px 0px 0px;
 	box-shadow: 3px 3px 10px;
+	transition: transform 0.5s;}
+#new1,#new2,#new3{
+	border-radius: 10px 10px 0px 0px;
+    width: 350px;
+	height: 70%;
 }
-img{
 
-	width: 100%;
-}
+
 .o:hover{
-	border:1px solid black;
-	border-radius: 5px;
+	transform: scale(1.05);
 	
-    margin: 1% ;
 
 }
 .n:hover{
-	border:1px solid black;
-	border-radius: 5px;
-	margin: 1% ;
-
+	transform: scale(1.05);
 	
 	}
 .e:hover{
-	border:1px solid black;
-	border-radius: 5px;
-	margin: 1% ;
+	transform: scale(1.05);
 }
 .aa{
 	display:flex;
@@ -93,7 +107,7 @@ img{
 	border:1px solid black;
 	border-radius: 5px;
 	box-shadow: 5px 5px 10px black;
-     
+	   
  }
  @media only screen and (max-width:600px){
  	.one,.two,.three,.four{
@@ -118,17 +132,14 @@ img{
 	.fourimg{
 		display: flex;
 		justify-content: space-evenly;
-
-
-	margin: 0px 3% 0px 3%;
-	flex-wrap: wrap;
-
-	}
+		margin: 0px 3% 0px 3%;
+		flex-wrap: wrap;
+}
 }
 .one{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('food.jfif');
+	background-image: url('new piza.webp');
 	padding: 20% 7%  0px 1%;
 	
 }
@@ -136,28 +147,36 @@ img{
 .two{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('sea dining.jfif');
+	background-image: url('new sea din.jpg');
 	padding: 20% 11%  0px 1%;
 	
 }
 .three{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('insta worthy.jfif');
-	padding: 19% 5%  0px 1%;
+	background-image: url('new insta.jpg');
+	padding: 20% 5%  0px 1%;
 	
 }
 .four{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-image: url('buffet.jfif');
-	padding: 19% 7%  0px 1%;
+	background-image: url('zomo bg.jfif');
+	padding: 20% 7%  0px 1%;
 	
 }
 .hole{
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+}
+@media only screen and (max-width:600px){
+	.t,.no,.v,.ad,.an,.th,.ad,.an,.th{
+		
+		flex-basis: 100%;
+		
+}
+	
 }
 .t,.no,.v{
 	border:1px solid black;
@@ -249,6 +268,7 @@ img{
 a:hover{
 	border: 1px solid black;
 	border-radius: 5px;
-	background-color: black;
+	background-color: red;
+	box-shadow: 0 0 10px red,0 0 10px red,0 0 20px red,0 0 40px red,0 0 60px red,0 0 80px red,0 0 100px red;
 	padding: 7px;
 }
