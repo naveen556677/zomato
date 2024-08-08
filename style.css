@@ -8,6 +8,7 @@
     color:white;
     
 }
+
 ul {
 	display:flex;
 	justify-content: space-around;
@@ -171,7 +172,7 @@ input{
 	flex-wrap: wrap;
 }
 @media only screen and (max-width:600px){
-	.t,.no,.v,.ad,.an,.th,.ad,.an,.th{
+	.t,.no,.v,.ad,.an,.th,.my,.al,.se{
 		
 		flex-basis: 100%;
 		
