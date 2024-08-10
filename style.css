@@ -351,7 +351,12 @@ background-color: red;
 	flex-wrap: wrap;
 	}
 	button{
-		margin-top: 2em;
+		margin-top: 8px;
 	}
 
+}
+@media only screen and (max-width:600px){
+	button{
+		margin-top: 8px;
+	}
 }
