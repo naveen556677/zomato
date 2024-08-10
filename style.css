@@ -189,14 +189,6 @@ input{
 		
 }
 }
-@media only screen and (max-width:950px){
-	.one,.two,.three,.four{
-		margin: 2%;
-		
-		flex-basis: 25%;
-		
-}
-}
 .t,.no,.v{
 	border:1px solid black;
 	border-radius: 5px;
