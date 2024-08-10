@@ -1,3 +1,7 @@
+*{
+	font-family: 'poppins',sans-serif;
+}
+
 .c{
 	background-image: url('new bg hd.jpg');
 	background-repeat: no-repeat;
@@ -177,7 +181,21 @@ input{
 		flex-basis: 100%;
 		
 }
-	
+}
+@media only screen and (max-width:950px){
+	.t,.no,.v,.ad,.an,.th,.my,.al,.se{
+		
+		flex-basis: 100%;
+		
+}
+}
+@media only screen and (max-width:950px){
+	.one,.two,.three,.four{
+		margin: 2%;
+		
+		flex-basis: 25%;
+		
+}
 }
 .t,.no,.v{
 	border:1px solid black;
@@ -244,6 +262,13 @@ input{
 	display: flex;
 	justify-content: flex-start;
 	margin: 1% 2%;
+}
+@media only screen and (max-width:950px){
+	.bb1,.b2,.b3,.b4{
+		
+		flex-basis: 50%;
+		
+}
 }
 .b1{
 	display: flex;
